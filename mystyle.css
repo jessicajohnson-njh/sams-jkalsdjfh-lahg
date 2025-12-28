@@ -1,0 +1,56 @@
+/*HI*/
+body{
+    list-style: circle;
+}
+.square {
+    list-style: square;
+}
+.u-roman {
+    list-style: upper-roman;
+}
+    font-family: courier;
+    text-align:center;
+    background-color:#CCE6F4;
+    }
+h1{
+    background-color: gray;
+    color: green;
+}
+h1:hover {
+    background-color: red;
+    color:white;
+}
+    img{
+    opacity: .50;
+}
+h2{
+    background-color: yellow;
+    color:purple;
+}
+h1:hover {
+    background-color: orange;
+    color:black;
+}
+/*first header styles*/
+.coasters {color:green;}
+/*second header styles*/
+.steel  {color:red;}
+/*third header style*/
+.copper {color:blue;}
+    .button { 
+    background-color: orange;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 200px;
+    padding: 15px 32px;
+    margin: 100px;
+    display: inline-block;
+    box-shadow: 9px 9px 5px 5px     lightgrey;
+    
+}
+.opacity {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
