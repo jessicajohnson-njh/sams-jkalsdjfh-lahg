@@ -1,55 +1,71 @@
-/*HI*/
-body{
-    list-style: circle;
+/* HI */
+
+body {
+  font-family: courier, monospace;
+  text-align: center;
+  background-color: #CCE6F4;
+}
+
+/* List style classes (these only affect <ul> or <ol>) */
+.circle {
+  list-style-type: circle;
 }
 .square {
-    list-style: square;
+  list-style-type: square;
 }
 .u-roman {
-    list-style: upper-roman;
+  list-style-type: upper-roman;
 }
-    font-family: courier;
-    text-align:center;
-    background-color:#CCE6F4;
-    }
-h1{
-    background-color: gray;
-    color: green;
+.l-alpha {
+  list-style-type: lower-alpha;
 }
+
+h1 {
+  background-color: gray;
+  color: green;
+}
+
 h1:hover {
-    background-color: red;
-    color:white;
+  background-color: orange;
+  color: black;
 }
-    img{
-    opacity: .50;
+
+img {
+  opacity: 0.5;
+  max-width: 100%;
+  height: auto;
 }
-h2{
-    background-color: yellow;
-    color:purple;
+
+/* Optional h2 styles (fine to keep) */
+h2 {
+  background-color: yellow;
+  color: purple;
 }
-h1:hover {
-    background-color: orange;
-    color:black;
+
+/* Header color classes */
+.coasters { color: green; }
+.steel { color: red; }
+.copper { color: blue; }
+
+/* Make the link look like a button */
+.button {
+  background-color: orange;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 16px;
+
+  width: 200px;
+  padding: 15px 32px;
+  margin: 20px auto;
+
+  display: inline-block;
+  text-decoration: none;
+
+  box-shadow: 9px 9px 5px 5px lightgrey;
 }
-/*first header styles*/
-.coasters {color:green;}
-/*second header styles*/
-.steel  {color:red;}
-/*third header style*/
-.copper {color:blue;}
-    .button { 
-    background-color: orange;
-    text-align: center;
-    font-weight: bold;
-    border-radius: 5px;
-    font-size: 16px;
-    width: 200px;
-    padding: 15px 32px;
-    margin: 100px;
-    display: inline-block;
-    box-shadow: 9px 9px 5px 5px     lightgrey;
-    
-}
+
 .opacity {
   opacity: 0.6;
   cursor: not-allowed;
